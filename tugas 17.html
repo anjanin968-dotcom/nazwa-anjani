@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detikjabar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f3f3f3;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .navbar {
+      background-color: #7e7f80;
+    }
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+    }
+
+    .hero {
+      background: linear-gradient(to right, #d9d9d9, #f8f8f8);
+      padding: 100px 0;
+      text-align: center;
+    }
+    .hero h1 {
+      color: #333;
+      font-weight: bold;
+    }
+
+    .news-section {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      margin-top: -50px;
+    }
+
+    .news-title {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .news-image {
+      border-radius: 10px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .news-content {
+      color: #555;
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    footer {
+      background-color: #4a4a4a;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">detikjabar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-white"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#news">Berita</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h1>Misteri Mayat Pria Berkaus 'Man Jadda Wa Jada' Terduduk di Gubuk</h1>
+      <p class="text-muted mt-3">Informasi terpercaya dari Jawa Barat dan sekitarnya</p>
+    </div>
+  </section>
+
+  <!-- News Section -->
+  <section id="news" class="container news-section">
+    <h2 class="news-title mb-4"></h2>
+    <img src="korban.jpg"
+         alt="korban mayat" class="news-image">
+
+    <p class="news-content">
+      Garut - Warga Kecamatan Cibatu, Kabupaten Garut digemparkan dengan penemuan sosok jasad lelaki yang haqmpir tinggal tulang-benulang 
+      disebuah gubuk yang terletak di perkebunan pada jum'at,(7/11) lalu.identitas korban hingga kini belum terungkap.
+           <br><br>
+      jasad tersebut pertama kali ditemukan oleh dua orang warga pada jumat sore,sekitar pukul 15.15 WIB di sebuah gubuk berukuran 3x3 meter, yang terletak 
+      di kampung salagedang,Desa/Kecamatan Cibatu,Garut
+      <br><br>
+      Menurut kapolsek cibatu iptu amirudin latif, mulanya saksi curig karena mencium bau busuk yang sangat menyengat,dari dalam gubuk berwarna putih tersebu.
+       saksi, kemudian memanggil warga lainnya,kemudian berbondong-bondong membuka pintu gubuk.
+      <br><br>
+      "Saksi melihat ada sesosok mayat didalam gubuk" ucap Amir.
+
+      mayat tersebut ditemukan menghitam, catatan polisi berdasarkan hasil oleh TKP meyatakan, jasad korban tergantung di bawah seutas tali berwarna hitam yang terkait ke plafon gubuk.
+      posisinya saat di temukan,terduduk dengan tali yang masih terikat dilehernya.
+
+      kasat reskim polres garut AKP joko prihatin menjelaskan, dari hasil identifikasi sementara diketahui  jika mayat tersebut berjenis kelamin laki-laki.
+      umurnya diperkirakan sekitar 40 tahunan. "tinggi badannya sekitar 170 cm" kata joko kepada detik jabar,selasa,(11/11/2025).
+
+      <br><br>
+      
+      <br><br>
+      <a href="https://www.detik.com/jabar" target="_blank" class="btn btn-secondary mt-3">Baca di Detik Jabar</a>
+    </p>
+  </section>
+
+  <!-- Kontak Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center text-secondary mb-4">Hubungi Kami</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="name" placeholder="Nama Anda">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="redaksi@detiknews.id">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Pesan</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Tulis pesan Anda di sini..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-secondary w-100">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Portal Berita Terkini.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
